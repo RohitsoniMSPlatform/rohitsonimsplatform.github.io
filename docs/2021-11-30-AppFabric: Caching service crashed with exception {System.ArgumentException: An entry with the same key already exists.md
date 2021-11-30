@@ -1,6 +1,8 @@
 Recently we had some cases where AppFabric caching service was crashing with error "An entry with the same key already exists."
 Issue: In the AppFabric event logs (Applications and Services Logs > Microsoft > Windows > Application Server-System Services), we'll see below error logged.
+
 AppFabric Caching service crashed with exception {System.ArgumentException: An entry with the same key already exists.
+
 at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
 at System.Collections.Generic.TreeSet`1.AddIfNotPresent(T item)
 at System.Collections.Generic.SortedDictionary`2.Add(TKey key, TValue value)
